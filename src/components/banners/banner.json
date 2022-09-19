@@ -1,0 +1,66 @@
+{
+  "collectionName": "components_banners_banners",
+  "info": {
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "secondary_subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "banner_shape": {
+      "type": "enumeration",
+      "enum": [
+        "square",
+        "portrait",
+        "landscape"
+      ],
+      "required": true,
+      "default": "square"
+    },
+    "banner_size": {
+      "type": "enumeration",
+      "enum": [
+        "carousel",
+        "full",
+        "half",
+        "small"
+      ]
+    },
+    "content_position": {
+      "type": "enumeration",
+      "enum": [
+        "inside_image",
+        "outside_image"
+      ]
+    },
+    "primary_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button"
+    },
+    "secondary_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button"
+    },
+    "background": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "backgrounds.image"
+    }
+  }
+}
