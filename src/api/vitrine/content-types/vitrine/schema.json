@@ -18,10 +18,9 @@
       "component": "banners.banner",
       "required": true
     },
-    "Title": {
+    "section_title": {
       "type": "string",
-      "required": true,
-      "private": true
+      "required": true
     }
   }
 }

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-09-16T18:57:30.783Z"
+    "x-generation-date": "2022-09-21T15:40:09.140Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -96,7 +96,7 @@
           "data": {
             "required": [
               "banners",
-              "Title"
+              "section_title"
             ],
             "type": "object",
             "properties": {
@@ -106,7 +106,7 @@
                   "$ref": "#/components/schemas/BannersBannerComponent"
                 }
               },
-              "Title": {
+              "section_title": {
                 "type": "string"
               }
             }
@@ -128,7 +128,7 @@
                   "$ref": "#/components/schemas/BannersBannerComponent"
                 }
               },
-              "Title": {
+              "section_title": {
                 "type": "string"
               },
               "createdAt": {
@@ -447,7 +447,7 @@
                   "$ref": "#/components/schemas/BannersBannerComponent"
                 }
               },
-              "Title": {
+              "section_title": {
                 "type": "string"
               },
               "createdAt": {
@@ -799,7 +799,7 @@
                   "$ref": "#/components/schemas/BannersBannerComponent"
                 }
               },
-              "Title": {
+              "section_title": {
                 "type": "string"
               },
               "createdAt": {
@@ -1118,7 +1118,7 @@
                   "$ref": "#/components/schemas/BannersBannerComponent"
                 }
               },
-              "Title": {
+              "section_title": {
                 "type": "string"
               },
               "createdAt": {
