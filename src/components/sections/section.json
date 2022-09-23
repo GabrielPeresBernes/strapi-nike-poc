@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_sections",
+  "info": {
+    "displayName": "Section"
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string",
+      "required": true
+    },
+    "see_more": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.see-more"
+    },
+    "banners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banners.banner"
+    }
+  }
+}

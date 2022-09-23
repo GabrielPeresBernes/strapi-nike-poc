@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_buttons_see_mores",
+  "info": {
+    "displayName": "seeMore",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

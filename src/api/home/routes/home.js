@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * vitrine router
+ * home router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::vitrine.vitrine');
+module.exports = createCoreRouter('api::home.home');

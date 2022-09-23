@@ -7,12 +7,12 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string",
+      "type": "text",
       "required": false
     },
     "subtitle": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "secondary_subtitle": {
       "type": "string"
@@ -27,8 +27,7 @@
         "portrait",
         "landscape"
       ],
-      "required": true,
-      "default": "square"
+      "required": true
     },
     "banner_size": {
       "type": "enumeration",
@@ -37,14 +36,16 @@
         "full",
         "half",
         "small"
-      ]
+      ],
+      "required": true
     },
     "content_position": {
       "type": "enumeration",
       "enum": [
-        "inside_image",
-        "outside_image"
-      ]
+        "inside",
+        "outside"
+      ],
+      "required": true
     },
     "primary_button": {
       "type": "component",

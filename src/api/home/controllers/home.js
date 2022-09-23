@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * vitrine controller
+ * home controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::vitrine.vitrine');
+module.exports = createCoreController('api::home.home');
