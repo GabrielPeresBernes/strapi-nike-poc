@@ -14,54 +14,23 @@
       "type": "string",
       "required": false
     },
-    "secondary_subtitle": {
+    "subtitle_secondary": {
       "type": "string"
     },
     "description": {
       "type": "text"
     },
-    "banner_shape": {
-      "type": "enumeration",
-      "enum": [
-        "square",
-        "portrait",
-        "landscape"
-      ],
-      "required": true
-    },
-    "banner_size": {
-      "type": "enumeration",
-      "enum": [
-        "carousel",
-        "full",
-        "half",
-        "small"
-      ],
-      "required": true
-    },
-    "content_position": {
-      "type": "enumeration",
-      "enum": [
-        "inside",
-        "outside"
-      ],
-      "required": true
-    },
-    "primary_button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "buttons.button"
-    },
-    "secondary_button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "buttons.button"
-    },
-    "background": {
+    "image": {
       "type": "component",
       "repeatable": false,
       "required": true,
       "component": "backgrounds.image"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "buttons.button"
     }
   }
 }

@@ -5,19 +5,55 @@
   },
   "options": {},
   "attributes": {
-    "section_title": {
+    "title": {
       "type": "string",
-      "required": true
+      "required": false
     },
-    "see_more": {
-      "type": "component",
-      "repeatable": false,
-      "component": "buttons.see-more"
-    },
-    "banners": {
+    "items": {
       "type": "component",
       "repeatable": true,
       "component": "banners.banner"
+    },
+    "shape": {
+      "type": "enumeration",
+      "enum": [
+        "square",
+        "portrait",
+        "landscape"
+      ],
+      "required": true
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "carousel",
+        "full",
+        "half",
+        "small"
+      ],
+      "required": true
+    },
+    "content_position": {
+      "type": "enumeration",
+      "enum": [
+        "internal",
+        "external"
+      ],
+      "required": true
+    },
+    "show_items_indicator": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "default": "primary",
+      "required": true
     }
   }
 }

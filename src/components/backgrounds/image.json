@@ -1,12 +1,12 @@
 {
   "collectionName": "components_images_images",
   "info": {
-    "displayName": "Background",
+    "displayName": "Image",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "image": {
+    "source": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -17,6 +17,10 @@
     "link": {
       "type": "string",
       "required": false
+    },
+    "alternative_text": {
+      "type": "string",
+      "required": true
     }
   }
 }

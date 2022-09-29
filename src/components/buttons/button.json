@@ -13,6 +13,14 @@
     "link": {
       "type": "string",
       "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "required": true
     }
   }
 }
