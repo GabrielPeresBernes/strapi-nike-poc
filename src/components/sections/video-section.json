@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_video_sections",
+  "info": {
+    "displayName": "VideoSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "shape": {
+      "type": "enumeration",
+      "enum": [
+        "square",
+        "portrait",
+        "landscape"
+      ],
+      "required": true
+    },
+    "item": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banners.video-banner",
+      "required": true
+    }
+  }
+}

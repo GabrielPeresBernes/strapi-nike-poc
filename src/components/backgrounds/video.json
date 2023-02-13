@@ -1,16 +1,16 @@
 {
-  "collectionName": "components_button_buttons",
+  "collectionName": "components_backgrounds_videos",
   "info": {
-    "displayName": "button",
+    "displayName": "Video",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "label": {
+    "source": {
       "type": "string",
       "required": true
     },
-    "link": {
+    "alternative_text": {
       "type": "string",
       "required": true
     }

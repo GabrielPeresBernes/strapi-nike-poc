@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "shop_categories",
+  "info": {
+    "singularName": "shop-category",
+    "pluralName": "shop-categories",
+    "displayName": "Shop Category"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "female": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shop.category",
+      "required": true
+    },
+    "male": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shop.category",
+      "required": true
+    },
+    "kids": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shop.category",
+      "required": true
+    }
+  }
+}

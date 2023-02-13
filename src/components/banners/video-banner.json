@@ -1,18 +1,16 @@
 {
-  "collectionName": "components_banners_banners",
+  "collectionName": "components_banners_video_banners",
   "info": {
-    "displayName": "Banner",
+    "displayName": "VideoBanner",
     "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "text",
-      "required": false
+      "type": "text"
     },
     "subtitle": {
-      "type": "string",
-      "required": false
+      "type": "string"
     },
     "subtitle_secondary": {
       "type": "string"
@@ -20,16 +18,15 @@
     "description": {
       "type": "text"
     },
-    "image": {
+    "video": {
       "type": "component",
       "repeatable": false,
-      "required": true,
-      "component": "backgrounds.image"
+      "component": "backgrounds.video",
+      "required": true
     },
     "buttons": {
       "type": "component",
       "repeatable": true,
-      "required": true,
       "component": "buttons.button",
       "max": 2
     }

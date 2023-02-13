@@ -6,19 +6,15 @@
   },
   "options": {},
   "attributes": {
-    "source": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "link": {
       "type": "string",
       "required": false
     },
     "alternative_text": {
+      "type": "string",
+      "required": true
+    },
+    "source": {
       "type": "string",
       "required": true
     }

@@ -45,15 +45,6 @@
       "type": "boolean",
       "required": true,
       "default": false
-    },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "primary",
-        "secondary"
-      ],
-      "default": "primary",
-      "required": true
     }
   }
 }

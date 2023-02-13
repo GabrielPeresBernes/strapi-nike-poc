@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "shops",
+  "info": {
+    "singularName": "shop",
+    "pluralName": "shops",
+    "displayName": "Shop",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "female": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.section",
+        "sections.video-section"
+      ]
+    },
+    "male": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.section",
+        "sections.video-section"
+      ]
+    },
+    "kids": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.section",
+        "sections.video-section"
+      ]
+    }
+  }
+}
